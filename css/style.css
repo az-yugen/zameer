@@ -1,5 +1,6 @@
 * {
     font-family: "JetBrains Mono";
+    background-color: rgb(243,240,243);
 }
 
 header {
@@ -95,7 +96,7 @@ img {
 
 .project-entry > div {
     display: block;
-    width: 300px;
+    width: 300;
     height: auto;
     font-size: smaller;
 
@@ -139,6 +140,20 @@ img {
     background-color: #29ABE2;
 }
 
+.jupyter {
+    background-color: #646464;
+    color: white;
+}
+
+.proteus {
+    background-color: #23C0EF;
+}
+
+.handson {
+    background-color: lightslategray;
+}
+
+
 .card {
     width: min(100%, 300px);
     height: auto;
@@ -148,7 +163,7 @@ img {
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
-    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.521);
+    box-shadow: 2px -2px 2px rgba(128, 128, 128, 0.521);
 }
 
 .card img {
