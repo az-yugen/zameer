@@ -63,7 +63,7 @@ nav a {
     margin-top: 32px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
     font-family: "JetBrains Mono";
