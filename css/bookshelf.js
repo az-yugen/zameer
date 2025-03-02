@@ -32,17 +32,19 @@ let availableColors = [
   "#FFFFFD",
   "#5D3C2D",
   "#FBF8F3",
+  "#000000",
   "#EAE2D7",
   "#000000",
-  "#000000",
-  "#FA1045",
-  "#66ADE9"
+  "#58504C",
+  "#CAE9E1",
+  "#66ADE9",
+  "#FA1045"
 ];
 // book mon:  #EAE2D7,  #8BA3AD
 
-let orderedHeightsList = [ 180, 200, 300, 230, 215, 280, 235, 250, 215  ];
-let orderedBreadthList = [ 25, 30, 80, 35, 50, 75, 40, 50, 60];
-let orderedWidthList = [ 120, 130, 200, 160, 140, 190, 160, 170, 140];
+let orderedHeightsList = [ 180, 200, 300, 230, 280, 215, 235, 260, 235, 215, 250  ];
+let orderedBreadthList = [ 25, 30, 80, 35, 75, 50, 30, 65, 45, 55, 50];
+let orderedWidthList = [ 120, 130, 200, 160, 190, 140, 160, 170, 165, 140, 170];
 
 spines.map(function (s, i) {
   let randomHeight = getRandomInt(220, 290);
