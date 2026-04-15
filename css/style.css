@@ -10,7 +10,7 @@
 }
 
 :root {
-    --COLORBG: rgb(245, 248, 248);
+    --COLORBG: rgb(255, 255, 255);
     --COLORTEXT: rgb(50, 50, 50);
     --COLORPLC: #93C11C;
     --COLORFIO: #FB872B;
